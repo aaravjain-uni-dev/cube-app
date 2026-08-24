@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Rubik's Cube Hub</title>    
-    <link rel="stylesheet" href="syles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubeHub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <header>
+        <h1>CubeHub</h1>
+        <p>Learn different cubing algorithms and time your solves..</p>
+    </header>
+    <main>
 
-    <h1>CubeHub</h1>
-    <h2>Learn different cubing algorithms and time your solves.</h2>
+        <section class="intro">
+            <h2>Improve your cubing skills</h2>
 
-    <p>
-        CubeHub is a place where you can learn different algorithms and speedcubing techniques for different cubes. You can time your solves, learn and memorize algorithms through diagrams, and improve your cubing techniques.
-    </p>
+            <p>
+                CubeHub helps you learn how to solve different cubes,
+                practise useful algorithms, and time your solves.
+                Choose a cube below to get started.
+            </p>
+        </section>
 
-    <h3>Select a cube:</h3>
+        <section class="cube-selection">
+            <h2>Select a cube</h2>
 
-    <div>
-        <button class="cube-btn" id="2x2-cube-btn">2x2 Cube</button>
-        <button class="cube-btn" id="3x3-cube-btn">3x3 Cube</button>
-    </div>
+            <div class="cube-grid">
+
+                <article class="cube-card">
+                    <h3>2x2 Cube</h3>
+
+                    <p>
+                        Learn how to solve the 2x2 cube, practise algorithms,
+                        and track your solve times.
+                    </p>
+
+                    <a href="cube2x2.html">Explore the 2x2 cube</a>
+                </article>
+
+                <article class="cube-card">
+                    <h3>3x3 Cube</h3>
+
+                    <p>
+                        Learn how to solve the 3x3 cube, practise algorithms,
+                        and track your solve times.
+                    </p>
+
+                    <a href="cube3x3.html">Explore the 3x3 cube</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CubeHub - by Aarav Jain</p>
+    </footer>
 
 </body>
 </html>
